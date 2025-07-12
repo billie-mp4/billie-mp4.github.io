@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>billie-mp4's portfolio</title>
+    <title>billie-mp4</title>
     <style>
         /*
         Josh's Custom CSS Reset
@@ -27,7 +27,8 @@
         body {
         line-height: 1.5;
         -webkit-font-smoothing: antialiased;
-        font-family:'Avenir Next'
+        font-family:'Avenir Next';
+        background-color: azure;
         }
 
         img, picture, video, canvas, svg {
@@ -53,21 +54,31 @@
         #root, #__next {
         isolation: isolate;
         }
-
-        div{
+        ul{
             display: flex;
+            flex-direction: column;
+            list-style: none;
         }
         a{
+            text-decoration: none;
+            color:darkslateblue;
+            font-size: 1.5rem;
+        }
+        a:hover{
+            font-weight: bold;
+        }
+        li{
+            vertical-align: middle;
             flex:1;
         }
     </style>
 </head>
 <body>
-    <div>
-        <a href="https://github.com/billie-mp4" target="_blank">github</a>
-        <a href="https://huggingface.co/billie-mp4" target="_blank">huggingface</a>
-        <a href="https://leetcode.com/u/billie-mp4/" target="_blank">leetcode</a>
-        <a href="https://www.hackerrank.com/profile/billie_mp4" target="_blank">hackerrank</a>
-    </div>
+    <ul>
+        <li><a href="https://github.com/billie-mp4" target="_blank">GitHub</a></li>
+        <li><a href="https://huggingface.co/billie-mp4" target="_blank">HuggingFace</a></li>
+        <li><a href="https://leetcode.com/u/billie-mp4/" target="_blank">LeetCode</a></li>
+        <li><a href="https://www.hackerrank.com/profile/billie_mp4" target="_blank">HackerRank</a></li>
+    </ul>
 </body>
 </html>

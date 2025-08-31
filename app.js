@@ -1,5 +1,5 @@
-import {init} from 'init.js'
-import {draw} from 'draw.js'
+import {init} from '/init.js'
+import {draw} from '/draw.js'
 main()
 function main(){
     const canvas=document.querySelector('canvas')
